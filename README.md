@@ -1,6 +1,8 @@
 # Fake-News-Detection-Classifier
 The project uses two seperate classifiers to train and evaluate the models for binary and sixway classification tasks on the Liar-Plus dataset (in 2 seperate Jupyter notebooks).
 
+Paper for the Liar-Plus dataset: [link.](https://aclweb.org/anthology/W18-5513)
+
 ## Methodology
 The skeleton architecture of my models are based on the conditions in the dataset's paper (S, SJ, SJ+). The highest validation accuracy was achieved using the parallel Bi-LSTM model on the SJ+ condition, and adding a GRU and Dense Layer. 
 
